@@ -1,0 +1,19 @@
+name: An example service
+description: What this service is for
+methods:
+    Do something interesting:
+        description: The first interesting service
+        path: /resources/resource/{param1}
+        params:
+            param1: http://dxa.gov.au/definition/trc/de217
+            param2: http://dxa.gov.au/definition/trc/de218
+        body: https://super.shuck.io/api/model/payment_reference_number_request
+        return: http://dxa.gov.au/definition/trc/de114
+        
+    Do another interesting thing:
+        description: The second interesting service
+        path: /doSomething
+        params:
+            param1: https://tour.shuck.io/define/de1
+        body: https://tour.shuck.io/api/model/rollover
+        return: http://dxa.gov.au/definition/trc/de114
